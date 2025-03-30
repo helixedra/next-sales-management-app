@@ -49,10 +49,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-__passgen
-
-public/uploads/*
-!public/uploads/.gitkeep
-
-*.sqlite
-*.sqlite-*
+# *.sqlite
+# *.sqlite-*
