@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.TableRow {
+    @apply flex gap-4 py-4 px-4 justify-between items-center border-b border-zinc-100 dark:border-zinc-800 cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-900;
+}
+
+.TableHeader {
+    @apply flex gap-4 py-2 px-4 justify-between items-center text-zinc-500 text-sm border-b border-zinc-100 dark:border-zinc-800 font-semibold sticky top-0 z-10 bg-white dark:bg-zinc-900;
+}
+
+.OrderItem {
+    @apply px-2 py-1 rounded-md bg-zinc-200 dark:bg-zinc-800 text-sm mx-1 truncate whitespace-nowrap overflow-hidden
+}

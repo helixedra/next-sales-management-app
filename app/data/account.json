@@ -1,0 +1,52 @@
+{
+  "account": {
+    "username": "user"
+  },
+  "finance": {
+    "currency_iso": "USD",
+    "currency_symbol": "$",
+    "currency_name": "Dollar",
+    "tax": 10,
+    "data_options": [
+      {
+        "signature": "/images/signature.svg",
+        "name": "Acme Corporation",
+        "ipn": "1234567890",
+        "address": "350 Fifth Avenue, New York, NY 10118",
+        "phone": "+12125551234",
+        "bank": {
+          "name": "Chase Bank",
+          "mfo": "021000021",
+          "edrpou": "12345678",
+          "account": "US456789012345678901234567890"
+        }
+      },
+      {
+        "signature": "/images/signature.svg",
+        "name": "TechSolutions LLC",
+        "ipn": "9876543210",
+        "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043",
+        "phone": "+16505551234",
+        "bank": {
+          "name": "Silicon Valley Bank",
+          "mfo": "121140399",
+          "edrpou": "87654321",
+          "account": "US987654321098765432109876543"
+        }
+      },
+      {
+        "signature": "/images/signature.svg",
+        "name": "Global Innovations Inc.",
+        "ipn": "4567890123",
+        "address": "1 Infinite Loop, Cupertino, CA 95014",
+        "phone": "+14085551234",
+        "bank": {
+          "name": "Bank of America",
+          "mfo": "026009593",
+          "edrpou": "34567890",
+          "account": "US012345678901234567890123456"
+        }
+      }
+    ]
+  }
+}
