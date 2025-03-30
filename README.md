@@ -1,5 +1,8 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+![screenshot](https://github.com/helixedra/next-sales-management-app/blob/main/screenshot.png?raw=true)
+
+
 ## Getting Started
 
 First, run the development server:
