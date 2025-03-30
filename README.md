@@ -36,7 +36,7 @@ To enable image saving functionality, you need to connect the application to a b
 
 ## Configuration
 
-To enable image optimization for your custom image bucket, update the `next.config.js` file in the project root with the following configuration:
+To enable images for your custom image bucket, update the `next.config.js` file in the project root with the following configuration:
 
 ```javascript
     images: {
