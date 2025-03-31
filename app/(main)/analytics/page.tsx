@@ -35,25 +35,25 @@ import {
   ChartTooltip,
   ChartTooltipContent,
 } from "@/components/ui/chart";
-import { log } from "console";
+
 const chartData = [
-  { month: "March", desktop: 237, mobile: 120 },
-  { month: "April", desktop: 255, mobile: 180 },
-  { month: "May", desktop: 290, mobile: 210 },
-  { month: "June", desktop: 320, mobile: 240 },
-  { month: "July", desktop: 340, mobile: 270 },
-  { month: "August", desktop: 310, mobile: 250 },
-  { month: "September", desktop: 370, mobile: 300 },
-  { month: "October", desktop: 390, mobile: 330 },
-  { month: "November", desktop: 420, mobile: 380 },
-  { month: "December", desktop: 480, mobile: 450 },
-  { month: "January", desktop: 350, mobile: 280 },
-  { month: "February", desktop: 330, mobile: 260 },
+  { month: "March", desktop: 2037, mobile: 1020 },
+  { month: "April", desktop: 2055, mobile: 1890 },
+  { month: "May", desktop: 2920, mobile: 2210 },
+  { month: "June", desktop: 3120, mobile: 2040 },
+  { month: "July", desktop: 3406, mobile: 3170 },
+  { month: "August", desktop: 3100, mobile: 3250 },
+  { month: "September", desktop: 3170, mobile: 3300 },
+  { month: "October", desktop: 3940, mobile: 3530 },
+  { month: "November", desktop: 3220, mobile: 3380 },
+  { month: "December", desktop: 3280, mobile: 3750 },
+  { month: "January", desktop: 3580, mobile: 4280 },
+  { month: "February", desktop: 3230, mobile: 3260 },
 ];
 const chartConfig = {
   desktop: {
     label: "Desktop",
-    color: "rgb(255, 255, 255)",
+    color: "rgb(190, 190, 190)",
   },
   mobile: {
     label: "Mobile",
@@ -128,8 +128,8 @@ const YearlyBarChart = ({
             accessibilityLayer
             data={chartData}
             margin={{
-              left: 12,
-              right: 12,
+              left: 0,
+              right: 0,
             }}
           >
             <CartesianGrid vertical={false} />

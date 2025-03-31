@@ -125,9 +125,12 @@
   },
 
   "mainmenu": {
-    "sales": "Sales",
+    "sales": "Orders",
     "analytics": "Analytics",
-    "warehouse": "Warehouse"
+    "warehouse": "Warehouse",
+    "customers": "Customers",
+    "delivery": "Logistics",
+    "files": "Files"
   },
   "status": {
     "new": "New",
@@ -150,7 +153,7 @@
     "comment": "Comment"
   },
   "pages": {
-    "site_name": "Base",
+    "site_name": "Dashboard",
     "orders": "Orders",
     "order": "Order",
     "analytics": "Analytics",
