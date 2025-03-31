@@ -242,8 +242,8 @@ export function BarChartComponent({
   return (
     <Card className="border-zinc-200 dark:border-zinc-800 bg-transparent w-full">
       <CardHeader>
-        <CardTitle>Bar Chart - Yearly Revenue</CardTitle>
-        <CardDescription>Revenue by Year</CardDescription>
+        <CardTitle>Yearly Revenue</CardTitle>
+        <CardDescription>Overview of yearly revenue trends</CardDescription>
       </CardHeader>
       <CardContent>
         <ChartContainer config={chartConfig} className="h-fit w-full">
